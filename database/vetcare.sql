@@ -41,7 +41,7 @@ CREATE TABLE animais (
 );
 
 CREATE TABLE consultas (
-  id INT AUTO_INCREMENT PRIMARY KEY,0,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   animal_id INT NOT NULL,
   data_consulta DATETIME NOT NULL,
   veterinario VARCHAR(120) NOT NULL,
